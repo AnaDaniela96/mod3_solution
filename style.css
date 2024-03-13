@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+body {
+    font-family: "Truculenta", sans-serif;
+    background-color: #ff006e;
+    color: #ffbe0b;
+}
+
+/** HEADER **/
+#header-nav {
+    background-color: #fb5607 !important;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand h1 {
+    /*Restaurant name */
+    color: #ffbe0b;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+}
+
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: #ffbe0b;
+    text-align: center;
+    text-shadow: 1px 1px 1px #222;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+#phone {
+    margin-top: 5px;
+}
+
+#phone a {
+    /*Phone number */
+    text-align: right;
+    padding-bottom: 0;
+}
+
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid #ffbe0b;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+}
+/* END HEADER */
+
+/* Container menu */
+#container-menu {
+    background-color: #8338ec;
+    padding: 25px;
+    border-radius: 20px;
+    border: 2px solid #ffbe0b;
+    
+}
+
+#container-menu:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+    background-color: #ffbe0b;
+    color: #8338ec;
+    font-weight: bold;
+}
